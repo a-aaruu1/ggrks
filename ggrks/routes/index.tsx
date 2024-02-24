@@ -10,9 +10,8 @@ export default function Home() {
         <title>めーぷる</title>
       </Head>
       <div class="px-4 py-8 mx-auto bg-[#86efac]">
-        <h1>https://mei.deno.dev/[ググらせたい内容]</h1>
-        <p>空白は+です。</p>
-        <p>by めーぷる / <a href="https://www.burgerking.co.jp">@めーぷる</a></p>
+        <h1>https://mei.deno.dev/[検索内容]</h1>
+        <p>by めーぷる / <a href="http://clublog.club-t.com/_ct/17331164">めーぷるとは？[Click]</a></p>
       </div>
     </>
   );
