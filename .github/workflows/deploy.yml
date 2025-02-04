@@ -21,7 +21,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: v2.x
+          deno-version: v1.x
 
       - name: Build step
         run: "deno task build"
@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "a-aaruu1-ggrks-30"
-          entrypoint: "main.tsx"
+          entrypoint: "main.ts"
           root: "."
           
           
